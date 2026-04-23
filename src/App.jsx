@@ -34,7 +34,7 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  // MOMENTOS (no cambio tu lógica, solo fix de carga)
+  // MOMENTOS
   const images = [
     "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200",
     "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200",
@@ -110,7 +110,7 @@ function App() {
         </div>
       </section>
 
-      {/* ESENCIA (no tocado) */}
+      {/* ESENCIA */}
       <section className="py-24 px-6 flex justify-center">
         <div className="max-w-3xl text-center glass-card">
           <h2 className="section-title">Nuestra esencia</h2>
@@ -164,7 +164,7 @@ function App() {
         </div>
       </section>
 
-      {/* MOMENTOS (como lo tenías, solo fix carga) */}
+      {/* MOMENTOS */}
       <section className="py-20 px-6 max-w-6xl mx-auto text-center">
         <h2 className="section-title">Momentos Valonia</h2>
 
@@ -174,7 +174,7 @@ function App() {
         </div>
       </section>
 
-      {/* CONTACTO (sin iconos, limpio) */}
+      {/* CONTACTO */}
       <section id="contacto" className="py-28 text-center">
 
         <h2 className="section-title">Contacto</h2>
@@ -206,12 +206,11 @@ function App() {
 
       </section>
 
-      {/* FOOTER (CORRECTO COMO PEDISTE) */}
+      {/* FOOTER */}
       <footer className="bg-black border-t border-[#b8965b]/20 py-12">
 
         <div className="max-w-6xl mx-auto px-2 flex justify-between items-center">
 
-          {/* IZQUIERDA */}
           <div className="text-gray-400 text-sm">
             <p>Direccion:</p>
             <p>Av. San Martín 742</p>
@@ -219,9 +218,8 @@ function App() {
             <p>+54 11 3817 5256</p>
           </div>
 
-          {/* CENTRO */}
           <div className="text-center">
-            <h3 className="text-[#b8965b] glow text-xl">⚜️Valonia</h3>
+            <h3 className="text-[#b8965b] glow text-xl">Valonia</h3>
 
             <p className="text-gray-500 text-sm mt-1">
               © Valonia - Todos los derechos reservados
