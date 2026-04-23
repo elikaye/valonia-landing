@@ -2,9 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import banner1 from "./assets/bannerlanding1.png";
 import banner2 from "./assets/2banner.png";
 import banner3 from "./assets/3banner.png";
-import carne from "./assets/Carne.jpg";
-import pasta from "./assets/Pasta.jpg";
-import postre from "./assets/Postre.jpg";
+import carne from "./assets/carne.jpg";
+import pasta from "./assets/pasta.jpg";
+import postre from "./assets/postre.jpg";
 import "./App.css";
 
 function App() {
